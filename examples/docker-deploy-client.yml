@@ -1,0 +1,11 @@
+# Example config file
+# token - an API token as stored in the server.
+# url - path to the address and port of the docker-deploy-server.
+# poll_interval - if > 0 the status of a deploy will be displayed every n-seconds
+#    If <=0 this feature will only display the status of a deploy once.
+# formatted - if true, will display the results of API calls in formatted JSON.
+
+token: "your-docker-deploy-server-token"
+url: "http://deploy-server.example.com:8080"
+poll_interval: 5
+formatted: true
