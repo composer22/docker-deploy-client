@@ -9,12 +9,6 @@
 #
 # $GOOS			$GOARCH
 # ====================
-# darwin		386
-# darwin		amd64 *
-# linux			386
-# linux			amd64 *
-# windows		386
-# windows		amd64 *
 # darwin	    386
 # darwin	    amd64
 # darwin	    arm
@@ -61,4 +55,4 @@ function run {
 }
 
 run
-mv docker-deploy-server-windows-amd64 docker-deploy-client-windows-amd64.exe
+mv docker-deploy-client-windows-amd64 docker-deploy-client-windows-amd64.exe

@@ -1,2 +1,5 @@
 .docker-deploy-client.yml
 docker-deploy-client
+docker-deploy-client-darwin-amd64
+docker-deploy-client-linux-amd64
+docker-deploy-client-windows-amd64.exe
