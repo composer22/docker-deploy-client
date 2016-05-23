@@ -29,7 +29,6 @@ docker-deploy-server to start containers in one or more machines (swarm cluster)
 		e := cmd.Flag("env").Value.String()
 		t := cmd.Flag("image-tag").Value.String()
 		p, err := strconv.ParseBool(cmd.Flag("poll-status").Value.String())
-		fmt.Println(p)
 		if err != nil {
 			client.PrintErr(err.Error())
 			os.Exit(0)
